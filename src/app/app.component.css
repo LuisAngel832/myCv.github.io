@@ -1,0 +1,103 @@
+/* TIPOGRAFÍA MODERNA */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  background-color: red; /* tono oscuro profundo */
+  color: #f0f6fc; /* blanco azulado para buen contraste */
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 40px;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* TABLA GENERAL */
+table {
+  color: #f0f6fc;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #161b22; /* tono intermedio */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+/* ENCABEZADOS */
+th {
+  background-color: #1f2937; /* gris oscuro elegante */
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.1em;
+  padding: 16px;
+  text-align: center;
+  border-bottom: 2px solid #30363d;
+}
+
+/* CELDAS */
+td {
+  padding: 18px;
+  border-top: 1px solid #30363d;
+  vertical-align: top;
+}
+
+/* FOTO DE PERFIL */
+img {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #444c56;
+}
+
+/* ESTILO PARA NEGRITAS */
+b, strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* TEXTOS SECUNDARIOS (FECHAS, LUGARES) */
+i {
+  color: #8b949e;
+  font-style: italic;
+}
+
+/* LISTAS */
+ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  color: #c9d1d9;
+}
+
+/* PÁRRAFOS GENERALES */
+p {
+  margin: 5px 0;
+  color: #c9d1d9;
+}
+
+/* LINKS */
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* EFECTO HOVER EN CELDAS */
+td:hover {
+  background-color: #1b222c;
+  transition: background 0.3s;
+}
+
+/* QUITA BORDES FEOS */
+table, td, th {
+  border: none;
+}
