@@ -1,10 +1,10 @@
 export class Header {
-    id?: string;
-    name: string = 'name';
-    goalLife: string = 'goal';
-    photolr1: string = 'photo';
-    email: string = 'email@domain.com';
-    phoneNumber: string = '999-999-9999';
-    location: string = 'city, country';
-    socialNetwork: string = '@facebook';
-}
+    name: string = '';
+    email: string = '';
+    location: string = '';
+    goalLife: string = '';
+    phoneNumber: string = '';
+    photoUrl: string = '';
+    socialNetwork: string = '';
+  }
+  
