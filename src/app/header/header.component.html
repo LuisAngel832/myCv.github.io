@@ -1,0 +1,24 @@
+<table border="1">
+  <thead>
+    <tr>
+      <th colspan="3">Información Personal</th>
+    </tr>
+  </thead>
+  <tbody *ngIf="header && header.name">
+    <tr>
+      <td>
+        {{ header.name }}<br>
+        {{ header.goalLife }}
+      </td>
+      <td>
+        <img [src]="header.photoUrl" width="200" height="200" alt="Foto de perfil">
+      </td>
+      <td>
+        {{ header.email }}<br>
+        {{ header.phoneNumber }}<br>
+        {{ header.location }}<br>
+        {{ header.socialNetwork }}
+      </td>
+    </tr>
+  </tbody>
+</table>
