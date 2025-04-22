@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-/* You can add global styles to this file, and also import other style files */
-main{color: #000;}
-=======
 /* TIPOGRAFÍA MODERNA */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
@@ -130,4 +126,3 @@ ul {
     top: 0;
   }
   
->>>>>>> a418885 (despliege de hosting con firebase)
