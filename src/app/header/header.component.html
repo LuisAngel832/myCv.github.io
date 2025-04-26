@@ -1,0 +1,31 @@
+<div *ngIf="header && header.name" class="profile-container">
+
+  <h2 class="section-title">Información Personal</h2>
+
+  <div class="personal-info">
+    
+    <div class="left-info">
+      <h4>Nombre</h4>
+      <p>{{ header.name }}</p>
+      <h4>Logro de vida</h4>
+      <p>{{ header.goalLife }}</p>
+    </div>
+
+    <div class="profile-photo">
+      <img [src]="header.photoUrl || 'default.jpg'" width="200" height="200" alt="Foto de perfil">
+    </div>
+
+    <div class="right-info">
+      <h4>Email</h4>
+      <p>{{ header.email }}</p>
+      <h4>Numero de telefono</h4>
+      <p>{{ header.phoneNumber }}</p>
+      <h4>Localidad</h4>
+      <p>{{ header.location }}</p>
+      <h4>Redes socilaes</h4>
+      <p>{{ header.socialNetwork }}</p>
+    </div>
+
+  </div>
+
+</div>

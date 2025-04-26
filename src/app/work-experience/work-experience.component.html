@@ -1,0 +1,34 @@
+<section *ngIf="workExperience && workExperience.length > 0" class="work-experience-section">
+  <h3>Experiencia Laboral</h3>
+
+  <ul class="work-experience-list">
+    <li *ngFor="let job of workExperience" class="work-experience-item">
+
+      <div class="job-field">
+        <h4>Fecha de Inicio - Fecha de Fin</h4>
+        <p>{{ job.StartDate }} – {{ job.endDate }}</p>
+      </div>
+
+      <div class="job-field">
+        <h4>Ubicación</h4>
+        <p><em>{{ job.location }}</em></p>
+      </div>
+
+      <div class="job-field">
+        <h4>Posición</h4>
+        <p>{{ job.position }}</p>
+      </div>
+
+      <div class="job-field">
+        <h4>Compañía</h4>
+        <p>{{ job.company }}</p>
+      </div>
+
+      <div class="job-field">
+        <h4>Logros</h4>
+        <p>{{ job.accomplishment }}</p>
+      </div>
+
+    </li>
+  </ul>
+</section>
