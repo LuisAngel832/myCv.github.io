@@ -1,0 +1,10 @@
+.personal-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h4{
+  margin: 0;
+  padding: 0;
+}

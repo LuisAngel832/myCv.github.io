@@ -1,6 +1,6 @@
 export class WorkExperience {
   id?: string;
-  startDate?: string = 'mmm-yyyy';
+  StartDate?: string = 'mmm-yyyy';
   endDate?: string = 'mmm-yyyy';
   location?: string = 'city, country';
   position?: string = 'my position';
